@@ -1,0 +1,73 @@
+# Build artifacts
+build/
+*.vcd
+*.out
+*.log
+*.jou
+*.str
+
+# Simulation files
+sim_*
+*.vvp
+*.lxt
+*.lxt2
+*.fst
+*.ghw
+
+# Python generated files
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+*.json
+model_weights_init.v
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.vh
+
+# Vivado/Xilinx files
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+vivado*.backup.jou
+vivado*.backup.log
+.Xil/
+*.bit
+*.bin
+*.mcs
+
+# Intel/Altera Quartus files
+*.qpf
+*.qsf
+*.sof
+*.pof
+*.qws
+db/
+incremental_db/
+output_files/
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
